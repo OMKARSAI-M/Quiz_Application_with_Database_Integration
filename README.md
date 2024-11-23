@@ -49,8 +49,26 @@ Execute the main script:
 python PythonQuizcode-final.py
 ```
 5. **Take the Quiz**
-<ul>
-<li>Enter your username and password (loaded from Class Roster.csv).</li>
-<li>Answer 5 randomly selected quiz questions.</li>
-<li>View your score, which is saved in the database.</li>
-</ul>
+  <ul>
+  <li>Enter your username and password (loaded from Class Roster.csv).</li>
+  <li>Answer 5 randomly selected quiz questions.</li>
+  <li>View your score, which is saved in the database.</li>
+  </ul>
+  
+# How It Works
+1. **Database Initialization**
+The CsvLab class initializes the SQLite database, creates tables, and resets existing data.
+Tables:
+  <ul>
+  <li>QuizQuestions: Stores quiz data.</li>
+  <li>ClassRoster: Manages user credentials.</li>
+  <li>Gradebook: Tracks quiz performance.</li>
+  </ul>
+2. **CSV File Parsing**
+Quiz questions and user credentials are parsed from the Quiz Questions.csv and Class Roster.csv files respectively.
+
+3. **Interactive Quiz** 
+Users log in using credentials. Random questions are presented, and the program tracks and stores results.
+
+4. **Error Handling**
+Comprehensive error handling ensures a seamless user experience even with unexpected inputs.
