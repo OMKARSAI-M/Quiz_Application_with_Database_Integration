@@ -64,6 +64,7 @@ Tables:
   <li>ClassRoster: Manages user credentials.</li>
   <li>Gradebook: Tracks quiz performance.</li>
   </ul>
+  
 2. **CSV File Parsing**
 Quiz questions and user credentials are parsed from the Quiz Questions.csv and Class Roster.csv files respectively.
 
