@@ -19,7 +19,7 @@
   </ul>
 
 ## Project Structure
- <quote> Project Directory
+ <q> Project Directory
   │
   ├── Class Roster.csv            # CSV file containing student credentials
   ├── Quiz Questions.csv          # CSV file containing quiz questions
@@ -27,7 +27,7 @@
   ├── db_base.py                  # Base class for database operations
   ├── PythonQuizcode-final.py     # Main program logic for running the quiz
   └── README.md                   # Documentation of the project
-  </quote>
+  </q>
 # How to Run
 <ul>
 <ol>Clone the Repository</ol></br>
