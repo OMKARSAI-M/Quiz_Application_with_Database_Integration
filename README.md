@@ -73,3 +73,28 @@ Users log in using credentials. Random questions are presented, and the program 
 
 4. **Error Handling**
 Comprehensive error handling ensures a seamless user experience even with unexpected inputs.
+
+# Code Highlights
+## Database Base Class
+Efficient abstraction for database operations:
+```bash
+class DBbase:
+    def __init__(self, db_name):
+        self._conn = sqlite3.connect(db_name)
+        self._cursor = self._conn.cursor()
+```
+## Quiz Execution Logic
+Dynamic question retrieval and grading:
+```bash
+def run_quiz(self):
+    random.shuffle(self.quiz_questions_list)
+    for item in quiz_questions:
+        print(f"Question: {item.Question}")
+```
+# Future Enhancements
+<ul>
+<li>Add GUI using frameworks like Tkinter or PyQt.</li>
+<li>Introduce timer-based quizzes.</li>
+<li>Implement user registration and admin dashboard.</li>
+<li>Support export of gradebook data to CSV or Excel.</li>
+</ul>
