@@ -38,3 +38,19 @@ Clone the repository to your local system using:
 git clone https://github.com/OMKARSAI-M/QuizApp.git
 cd QuizApp
 ```
+2. **Setup Dependencies**
+Ensure Python 3.9+ is installed on your system. No additional packages are required.
+
+3. **Prepare the Database**
+The database is created automatically when the program runs. It reads data from the CSV files (Class Roster.csv and Quiz Questions.csv).
+4.**Run the Application**
+Execute the main script:
+```bash
+python PythonQuizcode-final.py
+```
+5. **Take the Quiz**
+<ul>
+<li>Enter your username and password (loaded from Class Roster.csv).</li>
+<li>Answer 5 randomly selected quiz questions.</li>
+<li>View your score, which is saved in the database.</li>
+</ul>
