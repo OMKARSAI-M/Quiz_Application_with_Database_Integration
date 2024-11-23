@@ -19,20 +19,22 @@
   </ul>
 
 ## Project Structure
- <q> Project Directory
-  │
-  ├── Class Roster.csv            # CSV file containing student credentials
-  ├── Quiz Questions.csv          # CSV file containing quiz questions
-  ├── QuizquestionsDB.sqlite      # SQLite database for storing application data
-  ├── db_base.py                  # Base class for database operations
-  ├── PythonQuizcode-final.py     # Main program logic for running the quiz
-  └── README.md                   # Documentation of the project
-  </q>
-# How to Run
-<ul>
-<ol>Clone the Repository</ol></br>
-Clone the repository to your local system using:
- <a> git clone https://github.com/YourUsername/QuizApp.git
-  cd QuizApp</a>
 
-</ul>
+```plaintext
+Project Directory
+│
+├── Class Roster.csv            # CSV file containing student credentials
+├── Quiz Questions.csv          # CSV file containing quiz questions
+├── QuizquestionsDB.sqlite      # SQLite database for storing application data
+├── db_base.py                  # Base class for database operations
+├── PythonQuizcode-final.py     # Main program logic for running the quiz
+├── db_base.cpython-313.pyc     # Compiled Python file for db_base.py
+└── README.md                   # Documentation of the project
+```
+# How to Run
+1. **Clone the Repository**
+Clone the repository to your local system using:
+```bash
+git clone https://github.com/OMKARSAI-M/QuizApp.git
+cd QuizApp
+```
