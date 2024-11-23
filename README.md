@@ -31,6 +31,17 @@ Project Directory
 ├── db_base.cpython-313.pyc     # Compiled Python file for db_base.py
 └── README.md                   # Documentation of the project
 ```
+# Sample Quiz Question
+Below are a few sample quiz questions included in the project:
+
+| Question                                   | Option 1    | Option 2    | Option 3    | Option 4    | Correct Answer |
+|-------------------------------------------|-------------|-------------|-------------|-------------|----------------|
+| What is the capital of France?            | Paris       | London      | Berlin      | Madrid      | Paris          |
+| What is 2 + 2?                             | 3           | 4           | 5           | 6           | 4              |
+| Who wrote "To Kill a Mockingbird"?        | Harper Lee  | Mark Twain  | J.K. Rowling| Jane Austen | Harper Lee     |
+| What is the largest planet in our solar system? | Mars    | Earth       | Jupiter     | Saturn      | Jupiter        |
+
+
 # How to Run
 1. **Clone the Repository**
 Clone the repository to your local system using:
