@@ -35,7 +35,7 @@ Project Directory
 1. **Clone the Repository**
 Clone the repository to your local system using:
 ```bash
-git clone https://github.com/OMKARSAI-M/QuizApp.git
+git clone https://github.com/OMKARSAI-M/Quiz_Application_with_Database_Integration.git
 cd QuizApp
 ```
 2. **Setup Dependencies**
