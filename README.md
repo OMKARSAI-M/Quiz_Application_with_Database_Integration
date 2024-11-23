@@ -100,5 +100,5 @@ def run_quiz(self):
 </ul>
 
 # Contributors
-<li>Omkar (GitHub: YourUsername)</li>li>
+<li>Omkar (GitHub: OMKARSAI-M)</li>
 Feel free to reach out for collaboration or suggestions!
