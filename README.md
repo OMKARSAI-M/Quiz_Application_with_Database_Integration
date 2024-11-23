@@ -41,6 +41,55 @@ Below are a few sample quiz questions included in the project:
 | Who wrote "To Kill a Mockingbird"?        | Harper Lee  | Mark Twain  | J.K. Rowling| Jane Austen | Harper Lee     |
 | What is the largest planet in our solar system? | Mars    | Earth       | Jupiter     | Saturn      | Jupiter        |
 
+# Sample Class Roster
+Below is a sample of the student roster included in the project: 
+
+| Student ID       | Password  |
+|-------------------|-----------|
+| 1                 | One
+| 2                 | Two       |
+| 3                 | Three     |
+| 4                 | Four      |
+
+I created a sample Class Roster with Student IDs ranging from 1 to 20. In a real-world scenario, we can use more complex passwords, or implement the Class Roster dynamically to allow users to sign up and log in using custom IDs and passwords.
+## Database Script: `db_base.py`
+
+<details>
+<summary>Click to view the code</summary>
+
+```python
+import sqlite3
+
+class DBbase:
+    _conn = None
+    _cursor = None
+
+    def __init__(self, db_name):
+        self._db_name = db_name
+        self.connect()
+
+    def connect(self):
+        self._conn = sqlite3.connect(self._db_name)
+        self._cursor = self._conn.cursor()
+
+    def execute_script(self, sql_string):
+        self._cursor.executescript(sql_string)
+
+    @property
+    def get_cursor(self):
+        return self._cursor
+
+    @property
+    def get_connection(self):
+        return self._conn
+
+    def reset_database(self):
+        raise NotImplementedError("Must implement from derived class")
+
+    def close_db(self):
+        self._conn.close()
+```
+</details>
 
 # How to Run
 1. **Clone the Repository**
